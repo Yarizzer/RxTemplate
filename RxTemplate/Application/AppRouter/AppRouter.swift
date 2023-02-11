@@ -23,6 +23,7 @@ class AppRouter {
 
 extension AppRouter: AppRoutable {
     func routeToInitialScene() {
-        
+        window.rootViewController = InitialSceneRouter.assembly()
+        window.makeKeyAndVisible()
     }
 }

@@ -13,6 +13,27 @@
 		1175FE0129974F8100169A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1175FDFF29974F8100169A2C /* LaunchScreen.storyboard */; };
 		1175FE12299751BB00169A2C /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE11299751BB00169A2C /* AppRouter.swift */; };
 		1175FE15299752A700169A2C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE14299752A700169A2C /* BaseViewController.swift */; };
+		1175FE222997530800169A2C /* InitialSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE162997530800169A2C /* InitialSceneRouter.swift */; };
+		1175FE232997530800169A2C /* InitialSceneRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE172997530800169A2C /* InitialSceneRouterContract.swift */; };
+		1175FE242997530800169A2C /* InitialSceneViewControllerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE182997530800169A2C /* InitialSceneViewControllerContract.swift */; };
+		1175FE252997530800169A2C /* InitialScenePresenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE192997530800169A2C /* InitialScenePresenterService.swift */; };
+		1175FE262997530800169A2C /* InitialSceneInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE1A2997530800169A2C /* InitialSceneInteractorContract.swift */; };
+		1175FE272997530800169A2C /* InitialSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1175FE1B2997530800169A2C /* InitialSceneViewController.xib */; };
+		1175FE282997530800169A2C /* InitialSceneInteractorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE1C2997530800169A2C /* InitialSceneInteractorService.swift */; };
+		1175FE292997530800169A2C /* InitialScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE1D2997530800169A2C /* InitialScenePresenter.swift */; };
+		1175FE2A2997530800169A2C /* InitialSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE1E2997530800169A2C /* InitialSceneViewController.swift */; };
+		1175FE2B2997530800169A2C /* InitialSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE1F2997530800169A2C /* InitialSceneViewModel.swift */; };
+		1175FE2C2997530800169A2C /* InitialSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE202997530800169A2C /* InitialSceneInteractor.swift */; };
+		1175FE2D2997530800169A2C /* InitialScenePresenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE212997530800169A2C /* InitialScenePresenterContract.swift */; };
+		1175FE36299758E500169A2C /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE35299758E500169A2C /* AppCore.swift */; };
+		1175FE382997590400169A2C /* AppCoreContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE372997590400169A2C /* AppCoreContract.swift */; };
+		1175FE3C2997594600169A2C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE3B2997594600169A2C /* Logger.swift */; };
+		1175FE3F2997596E00169A2C /* StyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE3E2997596E00169A2C /* StyleLayer.swift */; };
+		1175FE4129975A1400169A2C /* StyleLayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4029975A1400169A2C /* StyleLayerType.swift */; };
+		1175FE4429975AA700169A2C /* DatabaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4329975AA700169A2C /* DatabaseLayer.swift */; };
+		1175FE4629975ADE00169A2C /* DatabaseLayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */; };
+		1175FE4929975B7800169A2C /* DeviceLayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4829975B7800169A2C /* DeviceLayerType.swift */; };
+		1175FE4B29975B8B00169A2C /* DeviceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4A29975B8B00169A2C /* DeviceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +45,27 @@
 		1175FE0229974F8100169A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1175FE11299751BB00169A2C /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		1175FE14299752A700169A2C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1175FE162997530800169A2C /* InitialSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneRouter.swift; sourceTree = "<group>"; };
+		1175FE172997530800169A2C /* InitialSceneRouterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneRouterContract.swift; sourceTree = "<group>"; };
+		1175FE182997530800169A2C /* InitialSceneViewControllerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneViewControllerContract.swift; sourceTree = "<group>"; };
+		1175FE192997530800169A2C /* InitialScenePresenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScenePresenterService.swift; sourceTree = "<group>"; };
+		1175FE1A2997530800169A2C /* InitialSceneInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractorContract.swift; sourceTree = "<group>"; };
+		1175FE1B2997530800169A2C /* InitialSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialSceneViewController.xib; sourceTree = "<group>"; };
+		1175FE1C2997530800169A2C /* InitialSceneInteractorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractorService.swift; sourceTree = "<group>"; };
+		1175FE1D2997530800169A2C /* InitialScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScenePresenter.swift; sourceTree = "<group>"; };
+		1175FE1E2997530800169A2C /* InitialSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneViewController.swift; sourceTree = "<group>"; };
+		1175FE1F2997530800169A2C /* InitialSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneViewModel.swift; sourceTree = "<group>"; };
+		1175FE202997530800169A2C /* InitialSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSceneInteractor.swift; sourceTree = "<group>"; };
+		1175FE212997530800169A2C /* InitialScenePresenterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScenePresenterContract.swift; sourceTree = "<group>"; };
+		1175FE35299758E500169A2C /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		1175FE372997590400169A2C /* AppCoreContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoreContract.swift; sourceTree = "<group>"; };
+		1175FE3B2997594600169A2C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		1175FE3E2997596E00169A2C /* StyleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleLayer.swift; sourceTree = "<group>"; };
+		1175FE4029975A1400169A2C /* StyleLayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleLayerType.swift; sourceTree = "<group>"; };
+		1175FE4329975AA700169A2C /* DatabaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayer.swift; sourceTree = "<group>"; };
+		1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayerType.swift; sourceTree = "<group>"; };
+		1175FE4829975B7800169A2C /* DeviceLayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLayerType.swift; sourceTree = "<group>"; };
+		1175FE4A29975B8B00169A2C /* DeviceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +170,9 @@
 		1175FE0F2997515E00169A2C /* AppCore */ = {
 			isa = PBXGroup;
 			children = (
+				1175FE392997591800169A2C /* Layers */,
+				1175FE35299758E500169A2C /* AppCore.swift */,
+				1175FE372997590400169A2C /* AppCoreContract.swift */,
 			);
 			path = AppCore;
 			sourceTree = "<group>";
@@ -143,8 +188,122 @@
 		1175FE132997524800169A2C /* InitialScene */ = {
 			isa = PBXGroup;
 			children = (
+				1175FE2E2997531B00169A2C /* Router */,
+				1175FE322997534100169A2C /* ViewModel */,
+				1175FE312997533800169A2C /* Interactor */,
+				1175FE302997532E00169A2C /* Presenter */,
+				1175FE2F2997532600169A2C /* View */,
 			);
 			path = InitialScene;
+			sourceTree = "<group>";
+		};
+		1175FE2E2997531B00169A2C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE162997530800169A2C /* InitialSceneRouter.swift */,
+				1175FE172997530800169A2C /* InitialSceneRouterContract.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1175FE2F2997532600169A2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE1E2997530800169A2C /* InitialSceneViewController.swift */,
+				1175FE1B2997530800169A2C /* InitialSceneViewController.xib */,
+				1175FE182997530800169A2C /* InitialSceneViewControllerContract.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1175FE302997532E00169A2C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE342997536B00169A2C /* Service */,
+				1175FE1D2997530800169A2C /* InitialScenePresenter.swift */,
+				1175FE212997530800169A2C /* InitialScenePresenterContract.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1175FE312997533800169A2C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE332997535E00169A2C /* Service */,
+				1175FE1A2997530800169A2C /* InitialSceneInteractorContract.swift */,
+				1175FE202997530800169A2C /* InitialSceneInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1175FE322997534100169A2C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE1F2997530800169A2C /* InitialSceneViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1175FE332997535E00169A2C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE1C2997530800169A2C /* InitialSceneInteractorService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1175FE342997536B00169A2C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE192997530800169A2C /* InitialScenePresenterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1175FE392997591800169A2C /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE4729975B6600169A2C /* DeviceLayer */,
+				1175FE4229975A8E00169A2C /* DatabaseLayer */,
+				1175FE3D2997595500169A2C /* StyleLayer */,
+				1175FE3A2997592700169A2C /* Logger */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		1175FE3A2997592700169A2C /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE3B2997594600169A2C /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		1175FE3D2997595500169A2C /* StyleLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE3E2997596E00169A2C /* StyleLayer.swift */,
+				1175FE4029975A1400169A2C /* StyleLayerType.swift */,
+			);
+			path = StyleLayer;
+			sourceTree = "<group>";
+		};
+		1175FE4229975A8E00169A2C /* DatabaseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE4329975AA700169A2C /* DatabaseLayer.swift */,
+				1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */,
+			);
+			path = DatabaseLayer;
+			sourceTree = "<group>";
+		};
+		1175FE4729975B6600169A2C /* DeviceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1175FE4A29975B8B00169A2C /* DeviceLayer.swift */,
+				1175FE4829975B7800169A2C /* DeviceLayerType.swift */,
+			);
+			path = DeviceLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1175FE272997530800169A2C /* InitialSceneViewController.xib in Resources */,
 				1175FE0129974F8100169A2C /* LaunchScreen.storyboard in Resources */,
 				1175FDFE29974F8100169A2C /* Assets.xcassets in Resources */,
 			);
@@ -217,10 +377,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1175FE2A2997530800169A2C /* InitialSceneViewController.swift in Sources */,
+				1175FE282997530800169A2C /* InitialSceneInteractorService.swift in Sources */,
+				1175FE36299758E500169A2C /* AppCore.swift in Sources */,
+				1175FE4929975B7800169A2C /* DeviceLayerType.swift in Sources */,
+				1175FE262997530800169A2C /* InitialSceneInteractorContract.swift in Sources */,
 				1175FDFC29974F7F00169A2C /* RxTemplate.xcdatamodeld in Sources */,
+				1175FE2D2997530800169A2C /* InitialScenePresenterContract.swift in Sources */,
+				1175FE4629975ADE00169A2C /* DatabaseLayerType.swift in Sources */,
+				1175FE2C2997530800169A2C /* InitialSceneInteractor.swift in Sources */,
+				1175FE382997590400169A2C /* AppCoreContract.swift in Sources */,
+				1175FE222997530800169A2C /* InitialSceneRouter.swift in Sources */,
+				1175FE242997530800169A2C /* InitialSceneViewControllerContract.swift in Sources */,
 				1175FE15299752A700169A2C /* BaseViewController.swift in Sources */,
+				1175FE292997530800169A2C /* InitialScenePresenter.swift in Sources */,
 				1175FDF229974F7F00169A2C /* AppDelegate.swift in Sources */,
+				1175FE3C2997594600169A2C /* Logger.swift in Sources */,
+				1175FE232997530800169A2C /* InitialSceneRouterContract.swift in Sources */,
+				1175FE4B29975B8B00169A2C /* DeviceLayer.swift in Sources */,
+				1175FE2B2997530800169A2C /* InitialSceneViewModel.swift in Sources */,
+				1175FE252997530800169A2C /* InitialScenePresenterService.swift in Sources */,
 				1175FE12299751BB00169A2C /* AppRouter.swift in Sources */,
+				1175FE4429975AA700169A2C /* DatabaseLayer.swift in Sources */,
+				1175FE3F2997596E00169A2C /* StyleLayer.swift in Sources */,
+				1175FE4129975A1400169A2C /* StyleLayerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +544,6 @@
 				INFOPLIST_FILE = RxTemplate/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,7 +571,6 @@
 				INFOPLIST_FILE = RxTemplate/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

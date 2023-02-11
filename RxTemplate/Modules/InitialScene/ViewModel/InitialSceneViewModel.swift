@@ -7,7 +7,7 @@
 //
 
 protocol InitialSceneViewModelType {
-	
+    var sceneTitle: String { get }
 }
 
 class InitialSceneViewModel {
@@ -15,5 +15,11 @@ class InitialSceneViewModel {
 }
 
 extension InitialSceneViewModel: InitialSceneViewModelType {
-	
+    var sceneTitle: String { return Constants.sceneTitle }
+}
+
+extension InitialSceneViewModel {
+    private struct Constants {
+        static let sceneTitle = "Initial scene"
+    }
 }

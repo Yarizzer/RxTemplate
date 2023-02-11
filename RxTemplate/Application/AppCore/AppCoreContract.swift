@@ -5,4 +5,14 @@
 //  Created by Yaroslav Abaturov on 11.02.2023.
 //
 
-import Foundation
+protocol AppCoreStyleLayerType {
+    var styleLayer: StyleLayerType { get }
+}
+
+protocol AppCoreDeviceLayerType {
+    var deviceLayer: DeviceLayerType { get }
+}
+
+protocol AppCoreDatabaseLayerType {
+    var databaseLayer: DatabaseLayerType { get }
+}

@@ -19,13 +19,16 @@ class InitialSceneViewController: BaseViewController<InitialSceneInteractable> {
 	private func setup() {
 		interactor?.makeRequest(requestType: .initialSetup)
 	}
+    
+    
+    @IBOutlet private weak var sceneTitle: UILabel!
 }
 
 extension InitialSceneViewController: InitialSceneViewControllerType {
 	func update(viewModelDataType: InitialSceneViewControllerViewModel.ViewModelDataType) {
 		switch viewModelDataType {
 		case .initialSetup(let model):
-			print("\(self) \(#function) with model instance \(model)")
+            sceneTitle.text = model.sceneTitle
 		}
 	}
 }

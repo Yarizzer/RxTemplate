@@ -13,11 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private var router: AppRoutable?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        router = AppRouter()
+        
+        AppCore.shared.prepareSession()
+        
+        routeToInitialScene()
+        
         return true
     }
 
     private func routeToInitialScene() {
-        
+        self.router?.routeToInitialScene()
     }
 }
