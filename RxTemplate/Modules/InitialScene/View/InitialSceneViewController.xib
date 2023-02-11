@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InitialSceneViewController">
             <connections>
                 <outlet property="sceneTitle" destination="bxU-2E-fKU" id="gWs-eW-9Zd"/>
+                <outlet property="topPaddingConstraint" destination="f3I-Sm-KiC" id="3qc-JO-SKM"/>
                 <outlet property="view" destination="iN0-l3-epB" id="T2C-zL-GX5"/>
             </connections>
         </placeholder>
@@ -28,7 +29,6 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="bxU-2E-fKU" firstAttribute="top" secondItem="F0S-sf-IKf" secondAttribute="top" constant="10" id="gdG-U0-W11"/>
                         <constraint firstAttribute="trailing" secondItem="bxU-2E-fKU" secondAttribute="trailing" constant="10" id="gv6-1o-0yV"/>

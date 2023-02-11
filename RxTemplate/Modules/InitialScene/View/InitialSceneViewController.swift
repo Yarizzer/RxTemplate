@@ -17,10 +17,12 @@ class InitialSceneViewController: BaseViewController<InitialSceneInteractable> {
 	}
 	
 	private func setup() {
+        topPaddingConstraint.constant = (AppCore.shared.deviceLayer.hasTopNotch ? Constants.topConstraintValueWithNotch : Constants.topConstraintValueWithoutNotch)
+        
 		interactor?.makeRequest(requestType: .initialSetup)
 	}
     
-    
+    @IBOutlet private weak var topPaddingConstraint: NSLayoutConstraint!
     @IBOutlet private weak var sceneTitle: UILabel!
 }
 
@@ -35,6 +37,7 @@ extension InitialSceneViewController: InitialSceneViewControllerType {
 
 extension InitialSceneViewController {
 	private struct Constants {
-		
+        static let topConstraintValueWithNotch: CGFloat = 44
+        static let topConstraintValueWithoutNotch: CGFloat = 24
 	}
 }
