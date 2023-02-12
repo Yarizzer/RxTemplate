@@ -34,6 +34,9 @@
 		1175FE4629975ADE00169A2C /* DatabaseLayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */; };
 		1175FE4929975B7800169A2C /* DeviceLayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4829975B7800169A2C /* DeviceLayerType.swift */; };
 		1175FE4B29975B8B00169A2C /* DeviceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FE4A29975B8B00169A2C /* DeviceLayer.swift */; };
+		11D99EDD2999325D00163B81 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D99EDC2999325D00163B81 /* ItemModel.swift */; };
+		11D99EE0299933D800163B81 /* ItemEntity+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D99EDE299933D800163B81 /* ItemEntity+CoreDataProperties copy.swift */; };
+		11D99EE1299933D800163B81 /* ItemEntity+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D99EDF299933D800163B81 /* ItemEntity+CoreDataClass copy.swift */; };
 		A70F8D8A62DFBBCE7100FCDA /* Pods_RxTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8D3370890556EF4A2CD791 /* Pods_RxTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayerType.swift; sourceTree = "<group>"; };
 		1175FE4829975B7800169A2C /* DeviceLayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLayerType.swift; sourceTree = "<group>"; };
 		1175FE4A29975B8B00169A2C /* DeviceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLayer.swift; sourceTree = "<group>"; };
+		11D99EDC2999325D00163B81 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		11D99EDE299933D800163B81 /* ItemEntity+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		11D99EDF299933D800163B81 /* ItemEntity+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemEntity+CoreDataClass copy.swift"; sourceTree = "<group>"; };
 		2A31E49C1854ED5F84A6E6F2 /* Pods-RxTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTemplate.release.xcconfig"; path = "Target Support Files/Pods-RxTemplate/Pods-RxTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		4F8D3370890556EF4A2CD791 /* Pods_RxTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8C0FFD6492C68050E794F9 /* Pods-RxTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTemplate.debug.xcconfig"; path = "Target Support Files/Pods-RxTemplate/Pods-RxTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +151,7 @@
 		1175FE0B2997507800169A2C /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				11D99ED52999322200163B81 /* Item */,
 				1175FDFA29974F7F00169A2C /* RxTemplate.xcdatamodeld */,
 			);
 			path = Database;
@@ -237,8 +244,8 @@
 			isa = PBXGroup;
 			children = (
 				1175FE332997535E00169A2C /* Service */,
-				1175FE1A2997530800169A2C /* InitialSceneInteractorContract.swift */,
 				1175FE202997530800169A2C /* InitialSceneInteractor.swift */,
+				1175FE1A2997530800169A2C /* InitialSceneInteractorContract.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -298,6 +305,7 @@
 		1175FE4229975A8E00169A2C /* DatabaseLayer */ = {
 			isa = PBXGroup;
 			children = (
+				11D99EDA2999324300163B81 /* Models */,
 				1175FE4329975AA700169A2C /* DatabaseLayer.swift */,
 				1175FE4529975ADE00169A2C /* DatabaseLayerType.swift */,
 			);
@@ -311,6 +319,31 @@
 				1175FE4829975B7800169A2C /* DeviceLayerType.swift */,
 			);
 			path = DeviceLayer;
+			sourceTree = "<group>";
+		};
+		11D99ED52999322200163B81 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				11D99EDF299933D800163B81 /* ItemEntity+CoreDataClass copy.swift */,
+				11D99EDE299933D800163B81 /* ItemEntity+CoreDataProperties copy.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		11D99EDA2999324300163B81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11D99EDB2999324D00163B81 /* ItemModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11D99EDB2999324D00163B81 /* ItemModel */ = {
+			isa = PBXGroup;
+			children = (
+				11D99EDC2999325D00163B81 /* ItemModel.swift */,
+			);
+			path = ItemModel;
 			sourceTree = "<group>";
 		};
 		51B744A1A752E73380494FA2 /* Frameworks */ = {
@@ -327,7 +360,6 @@
 				5D8C0FFD6492C68050E794F9 /* Pods-RxTemplate.debug.xcconfig */,
 				2A31E49C1854ED5F84A6E6F2 /* Pods-RxTemplate.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -452,12 +484,14 @@
 				1175FE4929975B7800169A2C /* DeviceLayerType.swift in Sources */,
 				1175FE262997530800169A2C /* InitialSceneInteractorContract.swift in Sources */,
 				1175FDFC29974F7F00169A2C /* RxTemplate.xcdatamodeld in Sources */,
+				11D99EE1299933D800163B81 /* ItemEntity+CoreDataClass copy.swift in Sources */,
 				1175FE2D2997530800169A2C /* InitialScenePresenterContract.swift in Sources */,
 				1175FE4629975ADE00169A2C /* DatabaseLayerType.swift in Sources */,
 				1175FE2C2997530800169A2C /* InitialSceneInteractor.swift in Sources */,
 				1175FE382997590400169A2C /* AppCoreContract.swift in Sources */,
 				1175FE222997530800169A2C /* InitialSceneRouter.swift in Sources */,
 				1175FE242997530800169A2C /* InitialSceneViewControllerContract.swift in Sources */,
+				11D99EE0299933D800163B81 /* ItemEntity+CoreDataProperties copy.swift in Sources */,
 				1175FE15299752A700169A2C /* BaseViewController.swift in Sources */,
 				1175FE292997530800169A2C /* InitialScenePresenter.swift in Sources */,
 				1175FDF229974F7F00169A2C /* AppDelegate.swift in Sources */,
@@ -465,6 +499,7 @@
 				1175FE232997530800169A2C /* InitialSceneRouterContract.swift in Sources */,
 				1175FE4B29975B8B00169A2C /* DeviceLayer.swift in Sources */,
 				1175FE2B2997530800169A2C /* InitialSceneViewModel.swift in Sources */,
+				11D99EDD2999325D00163B81 /* ItemModel.swift in Sources */,
 				1175FE252997530800169A2C /* InitialScenePresenterService.swift in Sources */,
 				1175FE12299751BB00169A2C /* AppRouter.swift in Sources */,
 				1175FE4429975AA700169A2C /* DatabaseLayer.swift in Sources */,
