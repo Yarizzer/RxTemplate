@@ -1,5 +1,5 @@
 //
-//  Item+CoreDataClass.swift
+//  ItemEntity+CoreDataClass.swift
 //  
 //
 //  Created by Yaroslav Abaturov on 12.02.2023.

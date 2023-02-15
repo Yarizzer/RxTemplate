@@ -11,4 +11,7 @@ protocol DatabaseLayerType {
     func prepareSession(completion: @escaping (Bool) -> ())
     
     var itemsPublisher: PublishSubject<[ItemModel]> { get }
+    
+    func createNewItem(with data: ItemModel)
+    func removeAllItems()
 }
